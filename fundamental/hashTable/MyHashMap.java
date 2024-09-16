@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.hashTable;
+package fundamental.hashTable;
 
 import java.util.*;
 

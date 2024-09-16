@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.numberTheory;
+package fundamental.numberTheory;
 
 public class _2427_Number_of_Common_Factors {
     public static int commonFactors(int a, int b) {

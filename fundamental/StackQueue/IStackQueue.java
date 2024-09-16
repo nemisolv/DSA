@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.StackQueue;
+package fundamental.StackQueue;
 
 public interface IStackQueue {
     boolean push(int val);

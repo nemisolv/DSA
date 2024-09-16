@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.StackQueue;
+package fundamental.StackQueue;
 
 public class MyLinkedListStack implements IStackQueue {
     private Node topNode;

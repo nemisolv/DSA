@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.dailyLeetCodeChallenge;
+package dailyLeetCodeChallenge;
 
 public class _387_FirstUniqueCharacterInString {
     public static int firstUniqChar(String s) {

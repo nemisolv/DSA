@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.TreeDesign;
+package fundamental.TreeDesign;
 
 public class TreeNode {
     private int value;

@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.linkedList;
+package fundamental.linkedList;
 
 public class singleLinkedList {
     public static class Node {

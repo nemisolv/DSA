@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.Graph;
+package fundamental.Graph;
 
 import java.util.Stack;
 

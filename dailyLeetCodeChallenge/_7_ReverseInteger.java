@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.dailyLeetCodeChallenge;
+package dailyLeetCodeChallenge;
 
 public class _7_ReverseInteger {
     public static int reverse(int x) {

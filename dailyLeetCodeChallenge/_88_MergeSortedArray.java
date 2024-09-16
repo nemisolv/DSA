@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.dailyLeetCodeChallenge;
+package dailyLeetCodeChallenge;
 // cho 2 mảng:merge mảng 2 vào mảng 1(mảng 1 có size tương đối là size1+size2)
 
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.dailyLeetCodeChallenge;
+package dailyLeetCodeChallenge;
 
 public class _200_NumberOfIslands {
     boolean visited[][] = new boolean[300][300];

@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.dailyLeetCodeChallenge;
+package dailyLeetCodeChallenge;
 
 //import dateStructureAlgorithm.dailyLeetCodeChallenge;
 

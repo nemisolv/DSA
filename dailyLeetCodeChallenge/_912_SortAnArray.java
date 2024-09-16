@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.dailyLeetCodeChallenge;
+package dailyLeetCodeChallenge;
 
 import java.util.Arrays;
 // ở bài này phải implement thuật toán sắp xếp có O(nlogn) or nhỏ hơn,những thuật toán như bubbleSort,insertionSort,selectionSort có O(n^2) sẽ gặp ngoại lệ exceed time.

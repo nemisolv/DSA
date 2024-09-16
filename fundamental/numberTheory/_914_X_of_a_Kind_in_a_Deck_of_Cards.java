@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.numberTheory;
+package fundamental.numberTheory;
 
 import java.util.HashMap;
 import java.util.Map;

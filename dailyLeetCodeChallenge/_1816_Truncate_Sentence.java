@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.dailyLeetCodeChallenge;
+package dailyLeetCodeChallenge;
 
 public class _1816_Truncate_Sentence {
     public String truncateSentence(String s, int k) {

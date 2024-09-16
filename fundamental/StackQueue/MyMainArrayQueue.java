@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.StackQueue;
+package fundamental.StackQueue;
 
 public class MyMainArrayQueue {
     public static void main(String[] args) {

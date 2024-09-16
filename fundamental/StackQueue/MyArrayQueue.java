@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.StackQueue;
+package fundamental.StackQueue;
 
 public class MyArrayQueue implements IStackQueue {
     private static int SIZE = 4;

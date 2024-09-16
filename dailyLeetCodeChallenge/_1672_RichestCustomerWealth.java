@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.dailyLeetCodeChallenge;
+package dailyLeetCodeChallenge;
 
 public class _1672_RichestCustomerWealth {
     public static int maximumWealth(int[][] accounts) {

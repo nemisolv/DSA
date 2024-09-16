@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.TreeDesign;
+package fundamental.TreeDesign;
 
 public class Test {
     public static void main(String[] args) {

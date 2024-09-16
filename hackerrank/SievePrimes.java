@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.luyencode;
+package hackerrank;
 
 
 import static java.lang.Math.sqrt;

@@ -1,6 +1,6 @@
-package dataStructureAlgorithm.dailyLeetCodeChallenge;
+package dailyLeetCodeChallenge;
 
-import dataStructureAlgorithm.Tree.TreeNode;
+import fundamental.Tree.TreeNode;
 
 public class _112_PathSum {
     public boolean isLeaf(TreeNode curNode) {

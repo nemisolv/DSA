@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.Heap;
+package fundamental.Heap;
 
 public class Heap {
     private final int MAX_SIZE = 100;

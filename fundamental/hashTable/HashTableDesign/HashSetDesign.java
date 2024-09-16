@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.hashTable.HashTableDesign;
+package fundamental.hashTable.HashTableDesign;
 
 import java.util.ArrayList;
 

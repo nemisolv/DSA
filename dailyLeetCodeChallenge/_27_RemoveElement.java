@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.dailyLeetCodeChallenge;
+package dailyLeetCodeChallenge;
 
 public class _27_RemoveElement {
     //tuy nhiên nếu test case lớn thì runtime sẽ rất lâu và tốn bộ nhớ

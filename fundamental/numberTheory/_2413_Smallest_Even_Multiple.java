@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.numberTheory;
+package fundamental.numberTheory;
 
 public class _2413_Smallest_Even_Multiple {
     public static int smallestEvenMultiple(int n) {

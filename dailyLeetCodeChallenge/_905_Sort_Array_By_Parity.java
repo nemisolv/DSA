@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.dailyLeetCodeChallenge;
+package dailyLeetCodeChallenge;
 
 public class _905_Sort_Array_By_Parity {
     public static int[] sortArrayByParity(int[] nums) {

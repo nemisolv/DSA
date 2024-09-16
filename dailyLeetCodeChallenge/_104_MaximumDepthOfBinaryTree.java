@@ -1,5 +1,5 @@
-package dataStructureAlgorithm.dailyLeetCodeChallenge;
-import  dataStructureAlgorithm.Tree.TreeNode;
+package dailyLeetCodeChallenge;
+import  fundamental.Tree.TreeNode;
 
 public class _104_MaximumDepthOfBinaryTree {
     public int maxDepth(TreeNode root) {

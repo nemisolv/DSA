@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.Tree;
+package fundamental.Tree;
 
 public class myBinarySTree {
 

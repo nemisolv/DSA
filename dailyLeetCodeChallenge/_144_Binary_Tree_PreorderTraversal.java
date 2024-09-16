@@ -1,6 +1,6 @@
-package dataStructureAlgorithm.dailyLeetCodeChallenge;
+package dailyLeetCodeChallenge;
 
-import dataStructureAlgorithm.Tree.TreeNode;
+import fundamental.Tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.dailyLeetCodeChallenge;
+package dailyLeetCodeChallenge;
 
 public class _941_Valid_Mountain_Array {
     /*Concept:The basic idea is to traverse the array up the mountain, starting from the beginning, until we reach the peak.

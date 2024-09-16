@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.dailyLeetCodeChallenge;
+package dailyLeetCodeChallenge;
 
 public class _1662_CheckIfTwoStringArraysAreEquivalent {
     //Equivalent : tương đương

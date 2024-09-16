@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.Tree;
+package fundamental.Tree;
 
 import java.util.ArrayList;
 import java.util.Arrays;

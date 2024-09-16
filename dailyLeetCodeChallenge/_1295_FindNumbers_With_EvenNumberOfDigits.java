@@ -1,4 +1,4 @@
-package dataStructureAlgorithm.dailyLeetCodeChallenge;
+package dailyLeetCodeChallenge;
 // đếm số phần tử có số lượng chữ số là số chẵn
 public class _1295_FindNumbers_With_EvenNumberOfDigits {
     public static int findNumbers(int[] nums) {

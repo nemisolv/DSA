@@ -1,12 +1,12 @@
-package dataStructureAlgorithm.dailyLeetCodeChallenge;
+package dailyLeetCodeChallenge;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-import dataStructureAlgorithm.Tree.Traversal;
-import dataStructureAlgorithm.Tree.TreeNode;
-import dataStructureAlgorithm.Tree.myBinarySTree;
+import fundamental.Tree.Traversal;
+import fundamental.Tree.TreeNode;
+import fundamental.Tree.myBinarySTree;
 
 public class _94_BinaryTreeInorderTraversal {
     public static List  myList = new ArrayList<>();
