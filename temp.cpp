@@ -1,37 +1,35 @@
-// Cho 2 xâu ký tự s và t. Hãy in ra các ký tự xuất hiện cả trong s và t( các kí tự chỉ được in 1 lần) và theo thứ tự từ điển
-// Sau đó tiếp tục liệt kê các kí tự xuất hiện ở 1 trong 2 xâu  theo thứ tự từ điển.
-
 #include <iostream>
+#include <string>
+
 using namespace std;
 
-int main()
-{
-    string s, t;
-    cin >> s >> t;
-    int cnt1[256] = {0}, cnt2[256] = {0};
-    for (int i = 0; i < s.size(); i++)
-    {
-        cnt1[s[i]] = 1;
-    }
-    for (int i = 0; i < t.size(); i++)
-    {
-        cnt2[t[i]] = 1;
-    }
-    // intersection
-    for (int i = 0; i < 256; i++)
-    {
-        if (cnt1[i] && cnt2[i])
-        {
-            cout << (char)i ;
+
+
+// Hàm giải mã bằng thuật toán Caesar
+string decryptCaesar(string cipherText, int key) {
+    string plainText = "";
+    for (char c : cipherText) {
+        // Giải mã ký tự
+        if (isalpha(c)) {
+            char offset = islower(c) ? 'a' : 'A';
+            plainText += (c - offset - key + 26) % 26 + offset;
+        } else {
+            plainText += c; // Giữ nguyên ký tự không phải chữ cái
         }
     }
-    cout << endl;
-    // union
-    for (int i = 0; i < 256; i++)
-    {
-        if (cnt1[i] || cnt2[i])
-        {
-            cout << (char)i ;
-        }
+    return plainText;
+}
+
+int main() {
+    string cipherText;
+    cout << "Nhap chuoi cipher text: ";
+    getline(cin, cipherText);
+
+    // Thử tất cả các khóa từ 1 đến 25
+    for (int key = 1; key < 26; key++) {
+        string decryptedText = decryptCaesar(cipherText, key);
+        cout << "Khoa K = " << key << ": " << decryptedText << endl;
     }
+
+    return 0;
 }
