@@ -1,35 +1,37 @@
-#include <iostream>
-#include <string>
+
+
+
+#include<bits/stdc++.h>
+
 
 using namespace std;
 
 
 
-// Hàm giải mã bằng thuật toán Caesar
-string decryptCaesar(string cipherText, int key) {
-    string plainText = "";
-    for (char c : cipherText) {
-        // Giải mã ký tự
-        if (isalpha(c)) {
-            char offset = islower(c) ? 'a' : 'A';
-            plainText += (c - offset - key + 26) % 26 + offset;
-        } else {
-            plainText += c; // Giữ nguyên ký tự không phải chữ cái
-        }
-    }
-    return plainText;
-}
-
 int main() {
-    string cipherText;
-    cout << "Nhap chuoi cipher text: ";
-    getline(cin, cipherText);
-
-    // Thử tất cả các khóa từ 1 đến 25
-    for (int key = 1; key < 26; key++) {
-        string decryptedText = decryptCaesar(cipherText, key);
-        cout << "Khoa K = " << key << ": " << decryptedText << endl;
+    int n;cin >>n;
+    int a[n];
+    for(int &x: a)  {
+        cin >> x;
     }
 
-    return 0;
+    int k; cin >>k;
+    int cnt = 0;
+    for(int i =0;i< n ;i++) {
+      int x = k - a[i];
+      auto it = lower_bound(a+i+1,a+n,x); // >=
+      if(it != a+n ) {
+        if(a[*it] == x) {
+            cnt+= (*it -i);
+        }else {
+            cnt++;
+        }
+      }
+
+    }
+    cout <<cnt;
+
+  
+
+  
 }
