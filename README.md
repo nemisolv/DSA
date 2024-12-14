@@ -1,6 +1,3 @@
-Here's the updated README summary to match your request:
-
-* * *
 
 DSA - Data Structures and Algorithms 🚀
 =======================================
