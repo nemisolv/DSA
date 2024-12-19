@@ -1,22 +1,33 @@
-
-
 #include <bits/stdc++.h>
 
 using namespace std;
 
-vector<int> twoSum(vector<int> &a, int k)
+using ll = long long;
+
+int searchInsert(vector<int> &a, int k)
 {
-  int cnt = 0, n = a.size();
-  map<int, int> mp;
-  for(int i =0;i< n;i++) {
-    if(mp.find(k - a[i]) != mp.end()) {
-      return {mp[k - a[i]], i};
+  int l = -1;
+  for(int i = 0;i <a.size();i++) {
+    if(a[i] == k) {
+      return i;
+    }else if(a[i] < k) {
+      l = i;
     }
-    mp[a[i]] = i;
   }
-  return {};
+
+  return l + 1;
 }
 
 int main()
 {
+
+  int n;
+  cin >> n;
+  vector<int> a(n);
+  for(int i = 0;i < n;i++) {
+    cin >> a[i];
+  }
+  int k;
+  cin >> k;
+  cout << searchInsert(a, k) << endl;
 }
